@@ -29,7 +29,7 @@ export async function POST(req:Request){
        top_p: 1,
        frequency_penalty: 0,
        presence_penalty: 0,
-       max_tokens:500, //150 words retruned by ChatGPT 
+       max_tokens:1000, //150 words retruned by ChatGPT 
        stream: true,
        n:1
    }
